@@ -1,8 +1,8 @@
 package comunicacion;
 
 public class Alfabeto extends Pictograma{
-    private String[] letras;
-    private String interpretacion;
+     String[] letras;
+     String interpretacion;
 
     public Alfabeto(String origen, String[] letras, String interpretacion) {
         super(origen);
@@ -34,6 +34,6 @@ public class Alfabeto extends Pictograma{
         return interpretacion;
     }
     public String toString(){
-        return "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z";
+        return "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z";
     }
 }
