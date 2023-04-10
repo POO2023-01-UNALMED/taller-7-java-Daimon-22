@@ -61,6 +61,6 @@ public class Tesis extends Escrito{
         return interpretacion;
     }
     public String toString() {
-        return getOrigen()+"\n"+ getTitulo()+"\n"+ getAutor()+"\n"+getPaginas()+"\n"+getIdea()+"\n"+argumentos.length+"\n"+getConclusion()+"\n"+getInterpretacion();
+        return getOrigen()+"\n"+ getTitulo()+"\n"+ getAutor()+"\n"+getPaginas()+"\n"+getIdea()+"\n"+argumentos.length+"\n"+getConclusion()+"\n"+getReferencias();
     }
 }
