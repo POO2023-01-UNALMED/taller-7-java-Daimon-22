@@ -2,7 +2,7 @@ package comunicacion;
 
 public class Tesis extends Escrito{
     private String idea;
-    private String[] argumentos;
+     String[] argumentos;
     private String conclusion;
     private String referencias;
     private String interpretacion;
@@ -61,6 +61,6 @@ public class Tesis extends Escrito{
         return interpretacion;
     }
     public String toString() {
-        return getOrigen()+"\n"+ getTitulo()+"\n"+ getAutor()+"\n"+getPaginas()+"\n"+getIdea()+"\n"+argumentos.length+"\n"+getConclusion()+"\n"+getReferencias();
+        return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + getIdea() + "\n" + argumentos.length + "\n" + getConclusion() + "\n" + getReferencias();
     }
 }
