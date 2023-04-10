@@ -27,12 +27,13 @@ public class Fabula extends Escrito{
     }
 
     public int palabrasTotales(int palabrasTotales){
+
         return palabrasTotales*getPaginas()*1;
     }
     public  String interpretacion(){
         return interpretacion;
     }
     public String toString(){
-        return getOrigen()+"\n"+ getTitulo()+"\n"+ getAutor()+"\n"+getPaginas()+"\n"+getEnsenanza()+"\n"+getInterpretacion();
+        return getOrigen()+"\n"+ getTitulo()+"\n"+ getAutor()+"\n"+getPaginas()+"\n"+getEnsenanza();
     }
 }
